@@ -9,7 +9,7 @@ const Index = () => {
       <HeroSection />
       <FeaturedSetups />
       <TeamSection />
-      <NewsletterSection />
+      {/* <NewsletterSection /> */}
     </div>
   );
 };
