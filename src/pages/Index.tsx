@@ -1,6 +1,7 @@
 import { HeroSection } from "../components/HeroSection";
 import { FeaturedSetups } from "../components/FeaturedSetups";
 import { TeamSection } from "../components/TeamSection";
+import { NewsletterSection } from "../components/NewsletterSection";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <HeroSection />
       <FeaturedSetups />
       <TeamSection />
+      <NewsletterSection />
     </div>
   );
 };
